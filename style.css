@@ -113,7 +113,7 @@ a:hover { color: #c0c0c0; transition: 0.5s; }
     grid-template-columns: 1fr 1fr 1fr;
 }
 .block-art-name{
-    margin: 10%;
+    margin: 5%;
 }
 .block-art .block-art-img img{
     width: 100%;
