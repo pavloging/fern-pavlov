@@ -40,9 +40,7 @@ a:hover { color: #c0c0c0; transition: 0.5s; }
 }
 
 #img-wechat{
-    display: table;
-    margin-right: auto;
-    margin-left: auto;
+    text-align: center;
     margin-top: 5vw;
 }
 
