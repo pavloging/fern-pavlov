@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Century Gothic Local';
+    src: url(font/centurygothic.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Century Gothic Local';
+    text-align: center;
+}
+
+h1{ font-size: 500%; color: white; }
+
+h2{ font-size: 350%; color: white; }
+
+/*
+HEADER
+*/
+#header-fern{
+    position: absolute;
+    height: 100vh;
+}
+#header-fern h1{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+#header-fern-whatsapp{
+    position: absolute;
+    top: 8px;
+    right: 132px;
+
+    width: 100px;
+}
+#header-fern-wechat{
+    position: absolute;
+    top: 30px;
+    right: 16px;
+
+    width: 100px;
+    cursor: pointer;
+}
+#header-fern-bg{
+    height: 100%;
+}
+/*
+ABOUT US
+*/
+#about-us{
+    position: absolute;
+    right: 0;
+
+    margin-top: 100vh;
+    height: 100vh;
+}
+#about-us h2{
+    position: absolute;
+    left: 90px;
+    bottom: 350px;
+
+    text-align: left;
+}
+#about-us button{
+    position: absolute;
+    left: 90px;
+    bottom: 170px;
+
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background-color: yellowgreen;
+    color: white;
+    padding: 8px 16px;
+    font-size: 300%;
+    cursor: pointer;
+}
+#about-us-bg{
+    height: 100%;
+}
+/*
+FORK PROCESS
+*/
+#work-process{
+    position: absolute;
+    left: 0;
+
+    margin-top: 200vh;
+    height: 100vh;
+
+}
+#work-process h2{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    font-size: 400%;
+    color: yellowgreen;
+}
+#work-process-bg{
+    height: 100%;
+}
+/*
+D R I E D    FERROUS
+*/
+#dried-ferrous{
+    position: absolute;
+    right: 0;
+    
+    margin-top: 300vh;
+    height: 100vh;
+}
+#dried-ferrous-bg{
+    height: 100%;
+}
+/*
+READY DRY FERROUS
+*/
+#ready-dry-ferrous{
+    position: absolute;
+    left: 0;
+    
+    margin-top: 400vh;
+    height: 100vh;
+}
+#ready-dry-ferrous-bg{
+    height: 100%;
+}
+/*
+WeChat Menu
+*/
+.hide-menu{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: yellowgreen;
+    z-index: 1000;
+    text-align: center;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+#teg-wechat h1{
+    color: #000;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#img-wechat{
+    max-width: 100%;
+    max-height: 80%;
+}
+
+#close{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+@media all and (max-device-width: 914px) {
+    #about-us,
+    #dried-ferrous{
+        left: 0;
+    }
+}
