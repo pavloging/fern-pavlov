@@ -1,0 +1,260 @@
+@font-face {
+  font-family: "Century Gothic Local";
+  src: url(../../font/centurygothic.ttf);
+}
+.body {
+  font-family: "Century Gothic Local";
+  background-color: yellowgreen;
+}
+
+/*HEADER*/
+::marker {
+  color: aliceblue;
+  font-size: -webkit-xxx-large;
+}
+#lang {
+  position: absolute;
+  top: -20px;
+  right: 270px;
+}
+#lang summary:hover {
+  transition: 0.7s;
+  color: rgb(219, 219, 219);
+}
+#lang summary {
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-size: 300%;
+  color: white;
+}
+#lang a {
+  z-index: 100;
+  text-decoration: none;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-size: 200%;
+  color: white;
+}
+#lang a:hover {
+  transition: 0.7s;
+  color: rgb(219, 219, 219);
+}
+
+#fern-desktop {
+  position: relative;
+  width: 100%;
+}
+#about-us-desktop {
+  position: relative;
+  width: 100%;
+}
+#about-us-bg-desktop {
+  width: 100%;
+}
+#about-us-img-desktop {
+  position: absolute;
+  width: 40%;
+  right: 0;
+  top: 0;
+}
+#about-us-desktop h1 {
+  position: absolute;
+  left: 15%;
+  top: 10%;
+  font-size: 5vw;
+}
+#about-us-desktop h2 {
+  position: absolute;
+  left: 15%;
+  top: 25%;
+  text-align: left;
+  font-size: 3vw;
+}
+#about-us-desktop h3 {
+  font-size: smaller;
+}
+#about-us-desktop button {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+
+  width: 13vw;
+  height: 13vw;
+  border-radius: 50%;
+  appearance: none;
+  border: 0;
+  background-color: yellowgreen;
+  color: white;
+  padding: 8px 16px;
+  font-size: 300%;
+  cursor: pointer;
+  transition: 1s;
+}
+#about-us-desktop button:hover {
+  background-color: rgb(132, 170, 56);
+  width: 15.5vw;
+  transition: 1s;
+}
+.img-work-desktop {
+  display: flex;
+  justify-content: space-between;
+}
+.img-work-desktop img {
+  height: 100%;
+  width: 100%;
+}
+#sunrise-desktop {
+  margin-top: -45%;
+  transition: 0.7s;
+}
+#sunrise-desktop-div:hover #sunrise-desktop {
+  margin-top: -30%;
+  transition: 0.7s;
+}
+#salting-desktop {
+  margin-top: -100%;
+  transition: 0.7s;
+}
+#salting-desktop-div:hover #salting-desktop {
+  margin-top: -86%;
+  transition: 0.7s;
+}
+#ready-desktop {
+  margin-top: -85%;
+  transition: 0.7s;
+}
+#ready-desktop-div:hover #ready-desktop {
+  margin-top: -70%;
+  transition: 0.7s;
+}
+#packed-desktop {
+  width: 100%;
+  transition: 0.7s;
+}
+#packed-desktop-div {
+  width: 40%;
+  margin: auto;
+}
+#packed-desktop-div:hover #packed-desktop {
+  width: 90%;
+  transition: 0.7s;
+}
+.img-work-desktop > div {
+  width: 25%;
+  height: 100%;
+}
+#sunrise-desktop-div h2 {
+  position: relative;
+  opacity: 0;
+  transition: 0.7s;
+  top: 12vw;
+}
+#salting-desktop-div h2 {
+  position: relative;
+  opacity: 0;
+  transition: 0.7s;
+  top: 9vw;
+}
+#ready-desktop-div h2 {
+  position: relative;
+  opacity: 0;
+  transition: 0.7s;
+  top: 6vw;
+}
+#packed-desktop-div h2 {
+  opacity: 0;
+  transition: 0.7s;
+  transform: translateY(17vw);
+}
+#sunrise-desktop-div:hover h2,
+#salting-desktop-div:hover h2,
+#ready-desktop-div:hover h2,
+#packed-desktop-div:hover h2 {
+  opacity: 1;
+  transition: 0.7s;
+}
+#dried-fern {
+  width: 100%;
+  box-shadow: 0px 10px 15px 10px #000;
+}
+#ready-dry-ferrous {
+  width: 100%;
+}
+#dried-fern-div h1 {
+  position: absolute;
+  z-index: 1;
+  color: yellowgreen;
+  width: 100%;
+  background: antiquewhite;
+  margin-top: 28%;
+  font-size: 8vh;
+  padding: 0 0 5px;
+  opacity: 0.9;
+}
+#ready-dry-ferrous-div h1 {
+  position: absolute;
+  z-index: 1;
+  color: yellowgreen;
+  width: 100%;
+  background: antiquewhite;
+  margin-top: 28%;
+  font-size: 8vh;
+  padding: 0 0 5px;
+  opacity: 0.9;
+}
+/*About Us*/
+#header-fern-h1 {
+  cursor: pointer;
+}
+#aboutPageText {
+  opacity: 0.1;
+}
+
+#aboutPageText {
+  margin: 10%;
+}
+/*Top menu*/
+#header-fern-whatsapp:active {
+  transform: rotate(360deg);
+  transition: 0.7s;
+}
+#header-fern-wechat:active {
+  transform: rotate(360deg);
+  transition: 0.7s;
+}
+/*
+WeChat Menu
+*/
+.hide-menu {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: yellowgreen;
+  z-index: 1000;
+  text-align: center;
+  box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+}
+
+#teg-wechat h1 {
+  color: #000;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#img-wechat {
+  max-width: 100%;
+  max-height: 80%;
+}
+
+#close {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
