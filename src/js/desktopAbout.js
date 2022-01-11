@@ -38,7 +38,7 @@ function newHTMLforDesktop() {
   let html = `
     <div class="body">
         <div id="header-fern">
-            <img id="fern-desktop" src="../images/desktop/fern.jpg">
+            <img id="fern-desktop" src="images/desktop/fern.jpg">
             <h1 onclick="document.location='index.html'" id="header-fern-h1">IP PAVLOVA</h1>
             <details id="lang">
               <summary>Lang</summary>
@@ -46,9 +46,9 @@ function newHTMLforDesktop() {
               <a href="ru/about.html">Ru</a>
           </details>
             <a href="https://wa.me/79098410641/?text" target="_blank">
-                <img id="header-fern-whatsapp" src="../images/other/whatsapp.png">
+                <img id="header-fern-whatsapp" src="images/other/whatsapp.png">
             </a>
-            <img id="header-fern-wechat" onclick='wechatOpen()' src="../images/other/wechat.png">
+            <img id="header-fern-wechat" onclick='wechatOpen()' src="images/other/wechat.png">
         </div>
 
     </div>
